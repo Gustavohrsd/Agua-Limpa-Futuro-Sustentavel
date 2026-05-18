@@ -1,0 +1,113 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nascentes Vivas</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌱 Nascentes Vivas</h1>
+    <p>Agro forte, futuro sustentável</p>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Proteja as nascentes de água</h2>
+
+      <p>
+        O uso excessivo de agrotóxicos perto das nascentes pode
+        contaminar rios, matar animais e prejudicar a saúde humana.
+      </p>
+
+      <button onclick="rolar()">Saiba Mais</button>
+    </div>
+  </section>
+
+  <section class="info" id="informacoes">
+
+    <div class="card">
+      <h3>☠️ Problemas</h3>
+
+      <p>
+        O excesso de agrotóxicos pode infiltrar no solo
+        e atingir lençóis freáticos, rios e nascentes.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🌿 Soluções</h3>
+
+      <p>
+        Preservar matas ciliares e utilizar práticas sustentáveis
+        ajuda a proteger a água e o meio ambiente.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>💧 Água é Vida</h3>
+
+      <p>
+        Cuidar das nascentes é garantir água limpa
+        para as próximas gerações.
+      </p>
+    </div>
+
+  </section>
+
+  <section class="simulador">
+
+    <h2>🎮 Simulador Ambiental</h2>
+
+    <p>
+      Escolha como a fazenda será administrada:
+    </p>
+
+    <div class="botoes">
+
+      <button onclick="usarMuito()">
+        Muito Agrotóxico
+      </button>
+
+      <button onclick="usarPouco()">
+        Uso Controlado
+      </button>
+
+      <button onclick="preservar()">
+        Preservar Nascentes
+      </button>
+
+    </div>
+
+    <div class="resultado">
+
+      <h3 id="status">
+        Índice da Nascente: 100%
+      </h3>
+
+      <div class="barra">
+        <div class="progresso" id="barra"></div>
+      </div>
+
+      <p id="mensagem">
+        A nascente está saudável 🌱
+      </p>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>
+      Projeto Agrinho 2026 • Desenvolvido no VS Code
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* style.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#f4fdf6;
+  color:#1d1d1d;
+}
+
+header{
+  background:#2e8b57;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+
+header h1{
+  font-size:40px;
+}
+
+.hero{
+  height:90vh;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.5),
+  rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  text-align:center;
+  color:white;
+  padding:20px;
+}
+
+.hero-text{
+  max-width:700px;
+}
+
+.hero h2{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  font-size:22px;
+  margin-bottom:25px;
+}
+
+.hero button{
+  padding:15px 30px;
+  border:none;
+  background:#00c853;
+  color:white;
+  font-size:18px;
+  border-radius:10px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.hero button:hover{
+  background:#009624;
+}
+
+.info{
+  display:flex;
+  gap:20px;
+  padding:60px 20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:white;
+  width:300px;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card h3{
+  margin-bottom:15px;
+  color:#2e8b57;
+}
+
+.simulador{
+  background:#dff5e5;
+  padding:60px 20px;
+  text-align:center;
+}
+
+.simulador h2{
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.botoes{
+  margin-top:30px;
+}
+
+.botoes button{
+  margin:10px;
+  padding:15px 25px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+  background:#2e8b57;
+  color:white;
+  transition:0.3s;
+}
+
+.botoes button:hover{
+  background:#1f5f3d;
+}
+
+.resultado{
+  margin-top:40px;
+}
+
+.barra{
+  width:80%;
+  height:35px;
+  background:#ccc;
+  margin:20px auto;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.progresso{
+  width:100%;
+  height:100%;
+  background:#00c853;
+  transition:1s;
+}
+
+#mensagem{
+  font-size:22px;
+  margin-top:15px;
+}
+
+footer{
+  background:#2e8b57;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
+
+@media(max-width:768px){
+
+  .hero h2{
+    font-size:35px;
+  }
+
+  .hero p{
+    font-size:18px;
+  }
+
+}
